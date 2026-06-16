@@ -31,8 +31,11 @@
 // console.log(x[0].innerHTML);
 
 const change = ()=>{
-   let ram =  document.getElementById("ram")
-    ram.innerHTML="Bagunnara";
-    ram.style.backgroundColor = "red";
-    ram.style.color = "orange"
+    var a="#"+Math.floor(Math.random()*1000000);
+    a=a.toString(16);
+    a=a.padStart(6,"0");
+    document.getElementById("rom").style.backgroundColor=a;
+    console.log(a );
+    
+   
 }
