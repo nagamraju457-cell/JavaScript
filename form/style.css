@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+}
+form{
+    
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 30px auto;
+
+}
+.btn{
+    align: center;
+    background-color: blue;
+    color: white;
+    padding: 5px 5px;
+    cursor: pointer;
+    
+    
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
