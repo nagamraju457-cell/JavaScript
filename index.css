@@ -1,0 +1,10 @@
+
+#rom{
+    border: 2px solid black;
+    width: 200px;
+    height: auto;
+    background-color: aqua;
+    margin: 20px;
+    padding: 20px;
+}
+
