@@ -8,16 +8,13 @@
 </head>
 <body>
     <h1><u>Registration Form</u></h1>
-    <form>
-        
+    
+    <form onsubmit="validateForm(event)"> 
         Name:<input type="text" id="name" name="name"><br><br>
-
-        
         Email:<input type="email" id="email" name="email"><br><br>
-
-        
        Password:<input type="password" id="password" name="password"><br><br>
-
-        <button class="btn" type="submit">Submit</button>
+        <p id="error"></p>
+        <button type="submit">Submit</button>
+        <script src="script.js"></script>
 </body>
 </html>
