@@ -29,5 +29,10 @@ const validateForm = (event) =>{
         error.innerHTML = "Password is required";
         password.style.borderColor = "red"
     }
+    else if(username.value!="" && password.value!=""){
+        error.innerHTML = "Login Successful";
+        username.style.borderColor = "green"
+        password.style.borderColor = "green"
+    }
    
 }
